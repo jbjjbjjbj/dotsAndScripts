@@ -1,0 +1,2 @@
+/home/julian/.nanorc editors/nanorc
+/home/julian/.bashrc rc/bashrc

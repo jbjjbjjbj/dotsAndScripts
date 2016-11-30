@@ -14,7 +14,11 @@ with open('copyStuff.txt') as f:
 				os.system("mv '" + stuff[0] + "' '" + stuff[0] + ".bak'")
 				os.system("cp -r '" + stuff[1] + "' '" + stuff[0] + "'")
 
-if(sys.argv[1] == "sync"):
+if(sys.argv[1] == "commit"):
+	os.system("git add *")
+	os.system("git status")
+	msg = input("Commit message: ")
+	os.system("git commit -m '" + msg + "'")
 	os.system("git pull")
 	os.system("git push")
 

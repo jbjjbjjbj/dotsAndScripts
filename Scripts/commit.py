@@ -1,0 +1,6 @@
+os.system("git add *")
+os.system("git status")
+msg = input("Commit message: ")
+os.system("git commit -m '" + msg + "'")
+os.system("git pull")
+os.system("git push")

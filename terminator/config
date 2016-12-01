@@ -1,0 +1,77 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+  title_inactive_bg_color = "#1c1b19"
+  title_inactive_fg_color = "#ffffff"
+  title_transmit_bg_color = "#050505"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    antialias = False
+    background_color = "#100935"
+    background_darkness = 0.87
+    background_image = None
+    background_type = transparent
+    cursor_color = "#ffffff"
+    custom_command = TERM=xterm-256color zsh -l
+    font = Terminus 10
+    foreground_color = "#ffffff"
+    palette = "#050505:#b81109:#1cb228:#baa407:#2c5fad:#e35682:#16a085:#ffffff:#1c1b19:#e8160c:#24e534:#fcdf09:#408afc:#e02c6d:#1abc9c:#ebe3e3"
+    scroll_on_output = False
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[Old]]
+    antialias = False
+    background_color = "#100935"
+    background_darkness = 0.49
+    background_image = None
+    background_type = transparent
+    custom_command = tmux
+    font = Terminus 10
+    foreground_color = "#ffffff"
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[auto]]
+    antialias = False
+    background_color = "#032c36"
+    background_darkness = 0.82
+    background_image = None
+    background_type = transparent
+    font = Terminus 10
+    foreground_color = "#e8dfd6"
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[custom]]
+    antialias = False
+    background_color = "#032c36"
+    background_darkness = 0.77
+    background_image = None
+    background_type = transparent
+    cursor_color = "#e8dfd6"
+    font = Terminus 12
+    foreground_color = "#e8dfd6"
+    palette = "#032c36:#c2454e:#7cbf9e:#8a7a63:#2e3340:#ff5879:#44b5b1:#f2f1b9:#065f73:#ef5847:#a2d9b1:#beb090:#61778d:#ff99a1:#9ed9d8:#f6f6c9"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[souceror]]
+    background_color = "#151515"
+    background_image = None
+    cursor_color = "#c2c2b0"
+    foreground_color = "#c2c2b0"
+    palette = "#151515:#aa4450:#719611:#ff9800:#6688aa:#8f6f8f:#528b8b:#d3d3d3:#272822:#ff6a6a:#b1d631:#87875f:#90b0d1:#8181a6:#87ceeb:#c1cdc1"

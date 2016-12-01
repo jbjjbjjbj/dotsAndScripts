@@ -1,3 +1,5 @@
 /home/julian/.nanorc editors/nanorc
 /home/julian/.bashrc rc/bashrc
 /home/julian/Scripts Scripts
+/home/julian/.tmux.conf tmux
+/home/julian/.config/terminator terminator

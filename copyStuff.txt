@@ -3,3 +3,4 @@
 /home/julian/Scripts Scripts
 /home/julian/.tmux.conf tmux
 /home/julian/.config/terminator terminator
+/home/julian/.tmux tmuxFolder

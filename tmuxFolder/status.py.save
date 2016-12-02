@@ -1,0 +1,13 @@
+import time 
+
+out = ""
+
+sep = "#[fg=colour0,bg=] "
+
+out += "#[fg=colour0,bg=colour82]" + (time.strftime("%d:%m"))
+
+out += sep
+
+out += "#[fg=colour0,bg=colour82]" + (time.strftime("%H:%M"))
+
+print(out)

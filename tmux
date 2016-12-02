@@ -17,7 +17,7 @@ unbind %
 bind r source-file ~/.tmux.conf
 
 # Enable mouse control (clickable windows, panes, resizable panes)
- set -g mouse on
+# set -g mouse on
 # Enable mouse mode (tmux 2.1 and above)
 ##set -g mouse on
 

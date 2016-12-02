@@ -1,0 +1,4 @@
+compton &
+feh --bg-scale /home/julian/Billeder/Wallpapers/mountains.jpg &
+
+2bwm

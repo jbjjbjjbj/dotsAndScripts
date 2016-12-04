@@ -1,0 +1,38 @@
+!#include ".colors/sourcerer_mod"
+!#include ".colors/self_light"
+#include ".colors/c/contrast_need"
+!#include ".colors/google"
+URxvt*termName: rxvt-unicode
+
+URxvt*cursorBlink:  true
+
+URxvt.scrollBar: false
+
+!URxvt*font: xft:Droid\ Sans\ Mono:regular:size=9:antialias=true:hinting=true
+URxvt*font: xft:terminus:regular:size=10:antialias=true:hinting=true
+
+
+URxvt.perl-ext-common: default,matcher,clipboard,keyboard-select,url-select
+URxvt.url-launcher: /usr/bin/surf
+URxvt.urlButton: 1
+URxvt.underlineURLs: True
+
+URxvt.clipboard.autocopy: true
+URxvt.clipboard.copycmd: xclip -in -selection clipboard
+URxvt.clipboard.pastecmd: xclip -o -selection clipboard
+
+! Keybindings
+URxvt.keysym.Mod4-c: perl:clipboard:copy
+URxvt.keysym.Mod4-v: perl:clipboard:paste
+URxvt.keysym.Mod4-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.C-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: surf
+URxvt.url-select.video: mpv
+URxvt.url-select.button: 1
+
+! Mine farver

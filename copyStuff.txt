@@ -4,3 +4,6 @@
 /home/julian/.tmux.conf tmux
 /home/julian/.config/terminator terminator
 /home/julian/.tmux tmuxFolder
+/home/julian/Software/2bwm/src/2bwm/config.h 2bwm/config.h
+/home/julian/.config/compton compton
+/home/julian/.Xresources Xresources

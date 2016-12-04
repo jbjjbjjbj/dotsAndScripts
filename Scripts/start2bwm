@@ -1,4 +1,7 @@
-compton &
-feh --bg-scale /home/julian/Billeder/Wallpapers/mountains.jpg &
+compton --config /home/julian/.config/compton &
+
+xsetroot -cursor_name arrow -fg white -bg black
+
+feh --bg-scale /home/julian/Billeder/Wallpapers/m5* &
 
 2bwm

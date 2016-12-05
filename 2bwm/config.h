@@ -13,7 +13,7 @@ static const float    resize_keep_aspect_ratio= 1.03;
 ///---Offsets---///
 /*0)offsetx          1)offsety
  *2)maxwidth         3)maxheight */
-static const uint8_t offsets[] = {0,0,0,0};
+static const uint8_t offsets[] = {0,0,0,24};
 ///---Colors---///
 /*0)focuscol         1)unfocuscol
  *2)fixedcol         3)unkilcol
@@ -38,7 +38,7 @@ static const bool inverted_colors = false;
 static const uint8_t borders[] = {3,8,3,8};
 /* Windows that won't have a border.*/
 #define LOOK_INTO "WM_NAME"
-static const char *ignore_names[] = {"bar", "xclock"};
+static const char *ignore_names[] = {"bar", "xclock", "xfdesktop"};
 ///--Menus and Programs---///
 
 static const char *menucmd[]   = { "rofi","-show", "DRun" ,NULL };
@@ -124,9 +124,9 @@ static key keys[] = {
     {  MOD ,              XK_Home,       resizestep_aspect, {.i=0}},
     {  MOD ,              XK_End,        resizestep_aspect, {.i=1}},
     // Full screen window without borders
-    {  MOD ,              XK_x,         maximize,          {.i=0}},
+    {  MOD ,              XK_x,         maximize,          {.i=1}},
     //Full screen window without borders overiding offsets
-    {  MOD |SHIFT ,       XK_x,          maximize,          {.i=1}},
+    {  MOD |SHIFT ,       XK_x,          maximize,          {.i=0}},
     // Maximize vertically
     {  MOD ,              XK_m,          maxvert_hor,       {.i=1}},
     // Maximize horizontally
